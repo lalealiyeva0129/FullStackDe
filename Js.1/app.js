@@ -5,7 +5,7 @@
       * comments
  
       *Deyisenin tipini mueyyen etmek ucun typeof istifade edilir */
-      
+   /*   
 let boy=Number(prompt("Zehmet olmasa, boyunuzu daxil edin:"));
 let kilo=Number(prompt("Zehmet olmasa, kilonuzu daxil edin:"));
 let hesab= kilo/(boy*2);
@@ -19,3 +19,4 @@ if (hesab<18.5){
       console.log("Dietaya basla sen!!!")
 }
 
+*/
