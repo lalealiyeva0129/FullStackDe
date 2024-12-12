@@ -20,7 +20,8 @@ switch(reqem){
             console.log("Daxil etdiyiniz reqem"+ reqem +"dir");
       default:
             console.log("Daxil etdiyiniz reqem 1 ile 5 arasinda deyil.");
-}
+} 
+            
 
 
 /*
@@ -31,7 +32,7 @@ for(i=0;i<=10;i++){
       sum=sum+i;
    console.log(i);
 }
-console.log(sum);
+console.log(sum); 
 
 /*
  ? 1-dən 100-ə qədər olan cüt rəqəmləri ekranda göstərən bir JavaScript proqramı yaz.
@@ -39,6 +40,7 @@ console.log(sum);
 for(i=0;i<=100;i=i+2){
       document.write(i+"<br>");
 }
+
 
 /* 1-dən 100-ə qədər olan ədədləri yoxlayın:
 
@@ -60,4 +62,47 @@ for(i=1;i<=10;i++){
             console.log(i +"*"+j+"="+i*j);
       }
       console.log( "..........");
+}
+      
+// ? Verilmiş n ədədinə qədər olan bütün ədədləri toplayan bir kod yaz.
+let n=prompt("Ededi daxil edin:");
+let sum1=0;
+for(i=1;i<=n;i++){
+      sum1+=i;
+
+}
+      
+console.log("Cem:"+sum1);
+// ? Verilmiş bir ədədə qədər olan tək ədədlərin cəmini hesabla.
+let n1=6;
+let sum2=0;
+for(let i=1;i<=n1;i++){
+      if(i % 2 !==0){
+            sum2+=i;   
+      }
+}
+console.log(sum2);
+// ? Verilmiş n ədədinə qədər olan ədədlərin kvadratlarının cəmini hesabla.
+let n2=prompt("Reqemi daxil edin:");
+let sum3=0;
+for(i=1;i<=n2;i++){
+      sum3+=Math.pow(i,2);
+}
+console.log(sum3);
+
+// ? Verilmiş n ədədinə qədər olan ədədlərdən yalnız 3-ə bölünən ədədləri tap və cəmini hesabla.
+let n3=prompt("Ededi daxil edin:");
+let sum4=0;
+for(i=0;i<=n3;i++){
+      if(i%3==0){
+            sum4=+i;
+      }
+}
+console.log(sum4);
+// ? Verilmiş n ədədinə qədər olan bütün tam kvadrat ədədləri tap.
+let n5=prompt("Eded daxil edin:");
+let sum5=0;
+for(i=0;i*i<=n5;i++){
+      sum5=i*i;
+      console.log(sum5);
 }
