@@ -1,15 +1,20 @@
-// ? Herif Tapmaq Tetbiqi 
-let cumle="Hayatin en guzel anlari,sessizce bize ders veren sadeliklerde gizlidir.";
-let herf = prompt("Zehmet olmasa, herfi daxil edin:");
-function bul(herf){
-      let toplam=0;
-    for (i=0; i<=cumle.length ; i++){
-        if(cumle.charAt(i)==herf){
-            toplam+=1;
-        }   
-      }
-  return toplam;
-}
-let netice=bul(herf);
-console.log(netice);
+// ? Mukemmel Reqem Tetbiqi
 
+function mukemmelReqem(a){
+  let toplam1=0;
+  for(i=2;i<=a/2;i++){
+    if(a%i==0){
+      toplam1+=i;
+    }
+  }
+   toplam1+=1+a;
+
+  if(toplam1==a*2){
+    console.log("Mukemmel Reqemdir.!");
+  }else{
+    console.log("Mukemmel Reqem deyil.!");
+  }
+
+}
+
+mukemmelReqem(6);

@@ -43,3 +43,18 @@ function ededler(a,b,c,d){
 }
 let a=ededler(2,6,4,9);
 console.log(a);
+
+// ? Herif Tapmaq Tetbiqi 
+let cumle="Hayatin en guzel anlari,sessizce bize ders veren sadeliklerde gizlidir.";
+let herf = prompt("Zehmet olmasa, herfi daxil edin:");
+function bul(herf){
+      let toplam=0;
+    for (i=0; i<=cumle.length ; i++){
+        if(cumle.charAt(i)==herf){
+            toplam+=1;
+        }   
+      }
+  return toplam;
+}
+let neticee=bul(herf);
+console.log(neticee);
