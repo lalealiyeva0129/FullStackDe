@@ -20,3 +20,7 @@ if (hesab<18.5){
 }
 
 */
+
+//  * js-de bir dene + isaresinde tip deyismir. yeni mes: "4"+1=41 edir.
+//  * amma "*/-" da adi hesablama aparilir. tipe baxmadan! 
+// NaN-number
